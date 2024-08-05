@@ -1,0 +1,514 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+body{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+    header{
+
+        background-image: url(./background.jpg)  ;
+        background-size: cover;
+        background-position: center 0;
+        background-repeat: no-repeat;
+    }
+    nav {
+      
+        background-color: rgb(0, 0, 0, 0.10 );
+        padding: 25px 0;
+        
+        justify-content: center;
+      
+ 
+
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    header .logo {
+        display: flex;
+    gap: 10px;
+
+    align-items: center;
+    }
+    .nav a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .menu {
+        display: flex ;
+
+        gap: 50px;
+    }
+
+    .welcome {
+    margin-top: 150px;
+        display: grid;
+    justify-items: center;
+
+
+    }
+
+    .welcome2 {
+        color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+
+    .welcome2 h2{
+        font-size: 50px;
+
+        color: black;
+    
+        }
+    .welcome2 h1{
+        letter-spacing: 10px;
+        font-size: 50px;
+        margin-bottom: 5%;
+        color: black;
+        font-weight: 800;
+        }
+        .welcome2 h5{
+            margin-bottom: 5%;
+                font-weight: 400;
+                }
+        
+
+        .welcome2 .button {
+            color: white;
+            background-color: black;
+        padding: 10px;
+        width: 200px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+        }
+
+        .section2{
+            margin-top: 15%;
+            background-color: black ; }
+        /*section 2 */
+        
+        .section3 {
+            margin-top: 15%;
+            background-color: black ;
+
+        
+        }
+        section .title {
+            color: white;
+            font-weight: 300;
+            justify-content: center;
+            display: flex;
+            margin-top: 50px;
+            margin-bottom: 100px;
+        }
+
+
+    .carousel-inner .carousel-item {
+
+    margin-left: 10%;
+
+
+
+        
+    }
+
+    .section3{
+        padding: 70px;
+        width: 100%;
+        margin-top: -15px;
+    display: grid;
+    justify-items: center;
+
+        
+        
+    
+
+
+    }
+
+    .section3 .title{
+        padding: 10px;
+        margin-bottom: 155px;
+    text-transform: uppercase ;
+
+    }
+    .section3 .title hr{
+    width: 500px;
+    margin-right: 10px;
+    margin-left: 10px;
+        color: white;
+    }
+    .section3 .title h1 {
+        font-weight: 300;
+    }
+
+    .section3 .foto{
+    position: relative;
+    margin-left: 30%;
+    margin-top: -10%;
+
+
+    }
+
+
+    .section3 .foto1{
+        position: relative;
+        margin-left:50%;
+        margin-top: -10%;
+    }
+
+    article {
+        line-height: 28px;
+        border-radius: 10px;
+    bottom: 15%;
+        background: #fff;
+        padding: 40px;
+        position: relative;
+
+        float: left;
+        z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;        width: 50%;
+    }
+
+    .section3 .button{
+        background-color: rgb(255, 255, 255, 0.1);
+    padding: 10px;
+    text-align: center;
+        width: 200px;  
+    position: relative;
+    bottom: 150px;
+    }
+
+
+    .section3 .button a{
+    color: white;
+        text-decoration: none;
+    }
+
+    .direction1 {
+    padding: 50px;
+
+    }
+
+    .direction1 .title h1{
+        margin-bottom: 10px;
+        font-weight: 300;
+    }
+
+    .logof{
+        padding: 100px;
+        display: flex;
+    gap: 10px;
+    justify-content: center;
+        
+        }
+
+        .logof h5{
+    margin-top: 10px;
+
+        }
+
+       @media screen and ( max-width: 990px ){
+
+
+        body {
+            width: 100%;
+        }
+ header .contenedor {
+    display: flex   ;
+justify-content: center; 
+
+
+
+
+
+}
+ header .nav {
+
+display: flex;
+gap: 70px;
+}
+header .nav .logo{
+    position: block;
+float: left;
+
+
+}
+
+.section2{
+    width: 100%;
+}
+.carousel-indicators{
+  margin-bottom: -20px;}
+
+  .section3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height:  50%;
+    align-items: center;
+
+  
+
+
+  }
+
+  .section3 .title {
+    margin-bottom: 30%;
+  }
+  .section3 img {
+    width: 400px;
+    float: right;
+  }
+
+  .section3 article{
+    float: left;
+  }
+
+
+
+
+}
+
+@media  screen and (max-width: 776px) {
+
+      body {
+            width: 100%;
+        }
+ header .contenedor {
+padding: 10px;
+
+
+
+
+
+
+
+}
+ header .nav {
+justify-content: center;
+display: flex;
+gap: 70px;
+}
+header .nav .logo{
+    position: block;
+float: left;
+
+
+}
+
+.section2{
+    width: 100%;
+}
+.carousel-indicators{
+  margin-bottom: -20px;}
+
+  .section3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+  
+
+
+  }
+
+  .section3 .title {
+    margin-bottom: 30%;
+  }
+  .section3 img {
+    width: 400px;
+    float: right;
+  }
+
+  .section3 article{
+    float: left;
+  }
+
+
+    
+}
+       
+
+@media  screen and (max-width: 767px) {
+
+    body {
+          width: 100%;
+      }
+
+header .nav {
+justify-content: center;
+display: flex;
+gap: 70px;
+padding: -1000px;
+
+}
+header .nav .logo{
+margin-top: -30px;
+margin-bottom: -30px;
+width: 10px;
+
+
+}
+
+header .menu {
+  display: flex;
+margin-left: 200px;
+    font-size: 19px;
+    margin-top: -30px;
+}
+
+.section2{
+  width: 100%;
+}
+.carousel-indicators{
+margin-bottom: -20px;}
+
+.section3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+
+
+
+}
+
+
+.section3 .title {
+  margin-bottom: 30%;
+}
+.section3 img {
+  width: 400px;
+  float: right;
+}
+
+.section3 article{
+
+top: 2px;
+display: block;
+  width: 100%;
+
+}
+footer {
+
+
+display: flex;
+
+}
+
+footer .direction1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+
+footer .direction {
+    font-size: 20px ;
+}
+
+  
+}
+
+
+
+@media  screen and (max-width: 675px) {
+
+    body {
+          width: 170%;
+      }
+
+header .nav {
+justify-content: center;
+display: flex;
+gap: 70px;
+padding: -1000px;
+
+}
+header .nav .logo{
+margin-top: -30px;
+margin-bottom: -30px;
+width: 10px;
+
+
+}
+
+header .menu {
+  display: flex;
+margin-left: 200px;
+    font-size: 19px;
+    margin-top: -30px;
+}
+
+.section2{
+  width: 100%;
+}
+.carousel-indicators{
+margin-bottom: -20px;}
+
+.section3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+
+
+
+}
+
+
+.section3 .title {
+  margin-bottom: 30%;
+}
+.section3 img {
+  width: 400px;
+  float: right;
+}
+
+.section3 article{
+
+top: 2px;
+display: block;
+  width: 100%;
+
+}
+footer {
+
+
+display: flex;
+
+}
+
+footer .direction1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+
+footer .direction {
+    font-size: 20px ;
+}
+
+  
+}
+     
